@@ -1,5 +1,5 @@
 <?php
-namespace zf2Ar ; 
+namespace zf2ar ; 
 
 class Module 
 {
