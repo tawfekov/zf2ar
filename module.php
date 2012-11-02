@@ -5,7 +5,7 @@ class Module
 {
     public function __invoke()
     {
-        $arabic = new \Arabic();
+        $arabic = new Arabic();
         return $arabic;
     }
 }
