@@ -1,6 +1,6 @@
 {
     
-    "name": "ar-php/zf2Ar",
+    "name": "ar-php/zf2ar",
     "description": "zf2 helper libaray for dealing with arabic language",
     "type": "library",
     "license": "MIT",
