@@ -28,4 +28,14 @@ class Module
 	    'factories' => array()
 	);
     }
+    public function getViewHelperConfig(){
+       return array(
+            'factories' => array(
+                'Gender' => function($sm) {
+                    //$locator = $sm->getServiceLocator(); 
+                    return new \ZF2ar\View\Helper\Gender();
+                },
+            ),
+        );
+    }
 }
