@@ -25,11 +25,7 @@ class Module
     public function getServiceConfig()
     {
     	return array(
-	    'factories' => array(
-                'arabic' => function ($sm) {		
-			return new Arabic();
-		}
-	   )
+	    'factories' => array()
 	);
     }
 }
