@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-0": {
-            "zf2ar": "src/"
+            "ZF2ar": "src/"
         },
         "classmap": [
             "./Module.php"
