@@ -31,9 +31,9 @@ class Module
     public function getViewHelperConfig(){
        return array(
             'factories' => array(
-                'Gender' => function($sm) {
+                'IsFemale' => function($sm) {
                     //$locator = $sm->getServiceLocator(); 
-                    return new \ZF2ar\View\Helper\Gender();
+                    return new \ZF2ar\View\Helper\IsFemale();
                 },
             ),
         );

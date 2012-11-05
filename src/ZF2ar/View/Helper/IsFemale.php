@@ -4,7 +4,7 @@ namespace ZF2ar\View\Helper;
 
 use Zend\View\Helper\AbstractHelper;
 
-class Gender extends AbstractHelper {
+class IsFemale  extends AbstractHelper {
 
     public function __construct() {
         
