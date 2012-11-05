@@ -25,7 +25,11 @@ class Module
     public function getServiceConfig()
     {
     	return array(
-	    'factories' => array()
+	    'factories' => array(
+		'IsFemale' => function($sm) {
+                    return new \Arphp\Gender();
+                },
+	    )
 	);
     }
     public function getViewHelperConfig(){
