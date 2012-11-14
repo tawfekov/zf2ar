@@ -29,6 +29,9 @@ class Module
 		'IsFemale' => function($sm) {
                     return new \Arphp\Gender();
                 },
+                'Transliteration' => function(){
+                    return new \Arphp\Transliteration();
+                }
 	    )
 	);
     }
