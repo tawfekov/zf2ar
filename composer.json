@@ -22,7 +22,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-	"zendframework/zendframework": "dev-master",
+	"zendframework/zendframework": ">=2.0.5",
 	"ar-php/ar-php": "dev-master"
     },
     "autoload": {
